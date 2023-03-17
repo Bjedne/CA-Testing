@@ -1,0 +1,27 @@
+header,
+footer {
+    background-color: rgb(187, 92, 89);
+    padding: 0px;
+}
+body {
+    background-color: rgba(27, 32, 61, 70)
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;  
+}
+h2 {
+    color: #fff;
+    font-size: 32px;
+}
+a.button {
+    background-color: rgb(252, 170, 103) ;
+    color: #000;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
