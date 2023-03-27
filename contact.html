@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <img src="/images/logo.png" alt="Gamehub logo">
+      <a href="index.html"><img src="/images/logo.png" alt="Gamehub logo" class="logo"></a>
       <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -28,12 +28,17 @@
         <h3 class="whitetext">support@gamehub.com</h3>
       </section>
       <section>
-        <h2>Done with your game?</h2>
-        <h2>Fill this form and sell it to us!</h2>
-        <input type="text" name="firstname">
-        <input type="text" name="email">
-        <input type="text" name="message">
-        <input type="submit">
+         <fieldset>
+          <h2>Done with your game?</h2>
+          <h2>Fill this form and sell it to us!</h2>
+          <label for="firstname">Your name</label>
+          <input type="text" name="firstname" id="firstname" class="form__input" required>
+          <label for="email">Your e-mail</label>
+          <input type="email" name="email" id="email" class="form__input" required>
+          <label for="message">Tell us which game(s) you want to sell</label>
+          <input type="text" name="message" id="message" class="form__input" required>
+          <input type="submit" value="SUBMIT">
+        </fieldset>
       </section>
       </main>
   </body>

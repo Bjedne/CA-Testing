@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <img src="/images/logo.png" alt="Gamehub logo" class="logo">
+      <a href="index.html"><img src="/images/logo.png" alt="Gamehub logo" class="logo left-padding"></a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -24,7 +24,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="left-padding">
       <section class="subhead">
         <div>
           <h1>Winter sale!</h1>       
@@ -33,35 +33,46 @@
           <p>Up to 70% off!</p>
         </div>
       </section>
-      <section>
+      <section class="whitetext">
         <h2>Trending games</h2>
-        <div>
+        <div class="gamedisplay">
           <h3 class="title">Space War</h3>
-          <img src="images/cover space.jpg" alt="Space War game logo" width="190" height="216">
-          <p>€49</p> <a href="x">Add to cart</a>
+          <img src="images/cover space.jpg" alt="Space War game logo" class="game-cover">
+          <p>€49</p>
+          <a class="button" href="products/forge.html">View game</a>
         </div>
-        <div>
+        <div class="gamedisplay">
           <h3 class="title">Forge Legend</h3>
-          <img src="images/cover forge.jpg" alt="Forge Legend game logo" width="190" height="216">
+          <img src="images/cover forge.jpg" alt="Forge Legend game logo" class="game-cover">
           <p>€69</p>
           <a class="button" href="products/forge.html">View game</a>
         </div>
-        <div>
-          <img src="images/cover cyberpunk.jpg" alt="Cyberpunk game logo" width="190" height="216">
+        <div class="gamedisplay">
+          <h3 class="title">Cyberpunk</h3>
+          <img src="images/cover cyberpunk.jpg" alt="Cyberpunk game logo" class="game-cover">
+          <p>€49</p>
+          <a class="button" href="products/forge.html">View game</a>
         </div>
-        <div>
-          <img src="images/cover super.jpg" alt="Super Duper game logo" width="190" height="216">
+        <div class="gamedisplay">
+          <h3 class="title">Super Duper</h3>
+          <img src="images/cover super.jpg" alt="Super Duper game logo" class="game-cover">
+          <p>€49</p>
+          <a class="button" href="products/forge.html">View game</a>
         </div>
-        <div>
-          <img src="images/cover boxer.jpg" alt="Boxer game logo" width="190" height="216">
+        <div class="gamedisplay">
+          <h3 class="title">Boxer</h3>
+          <img src="images/cover boxer.jpg" alt="Boxer game logo" class="game-cover">
+          <p>€49</p>
+          <a class="button" href="products/forge.html">View game</a>
         </div>
-        <div>
+        <div class="gamedisplay">
           x
         </div>
       </section>
       <section>
-        <img src="images/gow.jpg" alt="God of war Ragnarok" class="gow">
+        <img src="images/gow.jpg" alt="God of war Ragnarok" class="gow" style="width: 1240px; height: 328px; object-fit: cover;">
       </section>
+    </main>
       <footer>
         <div>
           <h3>Contact us at:</h3>
@@ -70,12 +81,11 @@
           <p>&copy;gamehub 2023</p>
         </div>
         <div> 
-        social media
+          social media
         </div>
         <div>
           payment icons
         </div>
-      </main>
     </footer>
   </body>
 </html>

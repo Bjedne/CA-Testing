@@ -8,9 +8,11 @@
 header,
 footer {
     background-color: rgb(187, 92, 89);
-    padding: 0px;
 }
 
+header a {
+    padding: 10px
+}
 
 body {
     background-color: rgba(27, 32, 61, 70);
@@ -40,9 +42,12 @@ h2 {
 
 a.button {
     font-family: "Aldrich", Verdana, sans-serif;
+    text-transform: uppercase;
     background-color: rgb(252, 170, 103);
     color: #000;
     text-decoration: none;
+    border: 1em solid rgb(252, 170, 103);
+    border-radius: 1em;
 }
 
 nav a:hover {
@@ -61,17 +66,54 @@ nav a:hover {
 }
 
 .gow {
-    max-width: 1240px;
-    max-height: 328px;
+    max-width: 80%; 
+}
+
+section{
+    margin: 3em 0;
 }
 
 .subhead {
-    max-width: 80%;
+    max-width: 100%;
     background-image: url("../images/snowy\ landscape.jpg");
     background-repeat: no-repeat;
-    
 }
 
 .whitetext {
     color: #fff;
+}
+
+.form__input {
+    display: block;
+}
+
+label {
+    color:#fff
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: inline-block;
+        position: static;
+    }
+}
+
+.gamedisplay {
+    display: inline-block;
+
+}
+
+.game-cover {
+    max-width: 190px;
+    max-width: 216px;
+}
+
+footer div {
+    display: inline-block;
+    padding: 0em 4em
+}
+
+.left-padding {
+    padding-left: 4em;
+    padding-right: 4em;
 }
